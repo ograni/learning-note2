@@ -1,0 +1,25 @@
+{
+  "name": "learning-note2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ograni/learning-note2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ograni/learning-note2/issues"
+  },
+  "homepage": "https://github.com/ograni/learning-note2#readme",
+  "dependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
