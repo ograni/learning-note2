@@ -13,7 +13,7 @@ module.exports = {
     // ],
     themeConfig: {
         sidebar: [
-            '/day1',
+            // '/day1',
             {
                 title: 'Day 1입니다',
                 collapsable: false,
