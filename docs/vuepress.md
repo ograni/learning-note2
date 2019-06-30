@@ -7,7 +7,7 @@
 
   
 
-## 사이트 배포하기 절차
+## 사이트 배포하기
 
   
 
@@ -16,11 +16,7 @@
 2. 깃허브 새 리포지토리 생성 (.gitignore 생성)
 
 3. 생성한 리포지토리 클론
-
-  
-
 ```
-
 git clone '새 리포지토리 클론 주소'
 
 ```
@@ -96,3 +92,37 @@ cd -
 
 > `sh`라는 명령어는 윈도우 기본 명령어 프롬프트 창에서 먹지 않습니다. 
 > 따라서  [cmder](https://cmder.net/)이라는 콘솔 프로그램을 설치해서 실행하거나 git bash와 같은 별도의 콘솔창 필요.
+
+
+## 슬라이드 메뉴
+```
+module.exports  = {
+	title: '타이틀을 적어 주세요.',
+	description: '세부설명',
+	base: '/자신의 폴더명/',	
+	themeConfig: {
+		sidebar: [
+			{
+				title: '메뉴1 제목',
+				collapsable: false, // 폴더 열어두기
+				children: [
+					'/서브메뉴1-1', // 경로에 서브메뉴1-1.md 파일이 존재필요
+					'/서브메뉴1-2'
+				],
+			},
+			{
+				title: '메뉴2 제목',
+				collapsable: false,
+				children: [
+					'/서브메뉴2-1', 
+					'/서브메뉴2-2'
+				],
+			},
+		],
+	},
+}
+```
+>children 의 서브메뉴 이름을 가진 md파일이 경로에 존재하여야만 함.
+
+## 페이지 작성하기
+https://gist.github.com/ihoneymon/652be052a0727ad59601

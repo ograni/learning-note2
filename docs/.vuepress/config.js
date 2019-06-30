@@ -31,13 +31,4 @@ module.exports = {
             },
         ],
     },
-    // themeConfig: {
-    //     sidebar: {
-    //         '/week1/': [
-    //             '', /* /foo/ */
-    //             'one', /* /foo/one.html */
-    //             'two' /* /foo/two.html */
-    //         ],
-    //     }
-    // },
 }
