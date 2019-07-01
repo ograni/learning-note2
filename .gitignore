@@ -61,4 +61,4 @@ typings/
 .next
 
 # Vuepress
-docs/.vuepress
+docs/.vuepress/dist
