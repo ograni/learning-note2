@@ -21,15 +21,12 @@ git clone '새 리포지토리 클론 주소'
 
 ```
 
-  
-
 4. 클론한 프로젝트 위치로 이동
 
 5. 프로젝트에서 `docs` 폴더 생성
 
 6. npm 설치
 ```
-
 npm init -y
 
 ```
@@ -38,7 +35,6 @@ npm init -y
 
 7. vuepress 설치
 ````
-
 npm install -D vuepress
 
 ````
@@ -117,12 +113,12 @@ module.exports  = {
 					'/서브메뉴2-1', 
 					'/서브메뉴2-2'
 				],
-			},
+			}, ㅜ
 		],
 	},
 }
 ```
 >children 의 서브메뉴 이름을 가진 md파일이 경로에 존재하여야만 함.
 
-## 페이지 작성하기
-https://gist.github.com/ihoneymon/652be052a0727ad59601
+## 마크다운 작성법
+<https://gist.github.com/ihoneymon/652be052a0727ad59601>
