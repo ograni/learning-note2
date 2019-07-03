@@ -29,8 +29,8 @@
 
 ## week2
 * 컴포넌트 통신방법 (event, emit)
-- components2.html
-- components3.html
-* 뷰 http 통신 라이브러리
+    - components2.html
+    - components3.html
+* 뷰 http 통신 라이브러리w
 * 뷰 템플릿 문법
 * 뷰 cli
