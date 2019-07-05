@@ -16,9 +16,8 @@
 2. 깃허브 새 리포지토리 생성 (.gitignore 생성)
 
 3. 생성한 리포지토리 클론
-```
+```sh
 git clone '새 리포지토리 클론 주소'
-
 ```
 
 4. 클론한 프로젝트 위치로 이동
@@ -28,16 +27,17 @@ git clone '새 리포지토리 클론 주소'
 6. npm 설치
 ```
 npm init -y
-
 ```
+:::tip
+npm init 명령어를 사용하면 프로젝트에 대한 여러 가지 정보를 입력하도록 요구받는다.
 
->npm init 명령어를 사용하면 프로젝트에 대한 여러 가지 정보를 입력하도록 요구받는다. 이때 입력된 정보를 바탕으로 npm은 package.json 파일을 생성한다. 일단 기본 설정값으로 생성된 package.json 파일을 수정하는 방법이 더 편리할 수 있으므로 npm init 명령어에 `--yes` 또는 `-y` 옵션을 추가한다. 그러면 기본 설정값으로 package.json 파일을 생성한다.
+이때 입력된 정보를 바탕으로 npm은 package.json 파일을 생성한다. 일단 기본 설정값으로 생성된 package.json 파일을 수정하는 방법이 더 편리할 수 있으므로 npm init 명령어에 `--yes` 또는 `-y` 옵션을 추가한다. 그러면 기본 설정값으로 package.json 파일을 생성한다.
+:::
 
 7. vuepress 설치
-````
+```sh
 npm install -D vuepress
-
-````
+```
 
 8. `package.json`  파일의 내용을 아래와 같이 수정
 ```json
@@ -55,7 +55,7 @@ npm install -D vuepress
 # Vue.js 정복 캠프 학습 노트!!
 ```
 10. 클론된 프로젝트 폴더 밑에 deploy.sh 파일을 추가하고 아래 내용을 삽입.
-```
+```sh
 #!/usr/bin/env sh
 
 # abort on errors
@@ -82,12 +82,16 @@ git push -f <뷰 프레스를 위해 생성한 깃헙 리포지토리의 클론 
 
 cd -
 ```
-> '뷰 프레스를 위해 생성한 깃헙 리포지토리의 클론 주소' 꼭 변경
+:::danger
+'뷰 프레스를 위해 생성한 깃헙 리포지토리의 클론 주소' 꼭 변경
+:::
 
 11.  프로젝트 폴더의 위치에서  `sh deploy.sh`를 실행하여 사이트 배포
+:::warning
+`sh`라는 명령어는 윈도우 기본 명령어 프롬프트 창에서 먹지 않습니다. 
 
-> `sh`라는 명령어는 윈도우 기본 명령어 프롬프트 창에서 먹지 않습니다. 
-> 따라서  [cmder](https://cmder.net/)이라는 콘솔 프로그램을 설치해서 실행하거나 git bash와 같은 별도의 콘솔창 필요.
+따라서  [cmder](https://cmder.net/)이라는 콘솔 프로그램을 설치해서 실행하거나 git bash와 같은 별도의 콘솔창 필요.
+:::
 
 
 ## 슬라이드 메뉴
@@ -118,7 +122,11 @@ module.exports  = {
 	},
 }
 ```
->children 의 서브메뉴 이름을 가진 md파일이 경로에 존재하여야만 함.
+:::tip
+children 의 서브메뉴 이름을 가진 md파일이 경로에 존재하여야만 함.
+:::
 
 ## 마크다운 작성법
-<https://gist.github.com/ihoneymon/652be052a0727ad59601>
+[참고 1](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+
+[참고 2](https://vuepress.vuejs.org/guide/markdown.html#header-anchors)

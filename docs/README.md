@@ -1,4 +1,20 @@
-# Vue.js 정복 캠프 학습 노트입니다.
+---
+home: true
+heroImage: /main.gif
+actionText: Get Started →
+actionLink: /vuepress/
+features:
+- title: 즐겨찾기
+  details: [참고 1](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+# - title: 
+#   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+# - title: Performant
+#   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: Leehansol Licensed | Copyright © 2019
+---
+
+
+<!-- # Vue.js 정복 캠프 학습 노트입니다.
 
 ## week 1
 * 뷰 프레스
@@ -35,4 +51,4 @@
 * 뷰 템플릿 문법
 * 뷰 cli
 
-*day4
+*day4 -->

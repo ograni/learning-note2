@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ograni/learning-note2#readme",
   "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "vuepress": "^1.0.2"
   }
 }
