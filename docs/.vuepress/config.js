@@ -43,6 +43,15 @@ module.exports = {
                     '/axios'
                 ],
             },
+            {
+                title: 'Day 4',
+                collapsable: false,
+                children: [
+                    '/npm',
+                    '/vue-cli',
+                    '/Todo-app'
+                ],
+            },
         ],
     },
 }

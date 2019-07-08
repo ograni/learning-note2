@@ -3,9 +3,9 @@ home: true
 heroImage: /main.gif
 actionText: Get Started →
 actionLink: /vuepress/
-features:
-- title: 즐겨찾기
-  details: [참고 1](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+# features:
+# - title: 즐겨찾기
+#   details: [참고 1](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 # - title: 
 #   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
 # - title: Performant
