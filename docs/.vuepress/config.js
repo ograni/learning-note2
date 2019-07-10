@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Vue.js_이한솔',
-    description: '나는 오늘 무엇을 배웠는가',
+    description: '-ㅠ-',
     base: '/learning-note2/',
     head: [
       [
@@ -50,6 +50,22 @@ module.exports = {
                     '/npm',
                     '/vue-cli',
                     '/Todo-app'
+                ],
+            },
+            {
+                title: 'Day 4',
+                collapsable: false,
+                children: [
+                    '/npm',
+                    '/vue-cli',
+                    '/Todo-app'
+                ],
+            },
+            {
+                title: 'Day 5',
+                collapsable: false,
+                children: [
+                    '/slots'
                 ],
             },
         ],
