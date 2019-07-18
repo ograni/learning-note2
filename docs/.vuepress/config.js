@@ -68,6 +68,11 @@ module.exports = {
         collapsable: false,
         children: ["/jQueyr-Vue"],
       },
+      {
+        title: "Day 9 - 20190717 wed",
+        collapsable: false,
+        children: ["/Vuex"],
+      },
     ],
   },
 };
